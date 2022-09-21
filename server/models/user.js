@@ -19,6 +19,10 @@ module.exports = (sequelize, DataTypes) => {
         foreignKey: "user_id",
         onDelete: 'cascade'
       })
+      User.hasMany(models.UserTech, {
+        foreignKey: 'user_id',
+        onDelete: 'cascade'
+      })
     }
   }
   User.init({
