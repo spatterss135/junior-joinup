@@ -13,30 +13,48 @@ export default function Resources() {
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Coding 101 &rarr;</h2>
-            <p>Our favorite resources for learning to code, from basic HTML to JavaScript exercises</p>
+            <h2>tutorials &rarr;</h2>
+            <p>our favorite resources for learning to code, from basic HTML to building full-scale applications</p>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Databases &rarr;</h2>
-            <p>Resources for learning how to create databases, as well as for helping you decide which type of database best suits your needs</p>
+            <h2>compare &rarr;</h2>
+            <p>how to decide which language, styling framework, or type of database best suits the needs of your project</p>
           </a>
 
           <a
             href="https://github.com/vercel/next.js/tree/canary/examples"
             className={styles.card}
           >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <h2>highlights &rarr;</h2>
+            <p>explore common issues for junior developers, fun quirks of various coding languages, and cool projects that we want to shoutout</p>
           </a>
 
           <a
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
           >
-            <h2>Deploy &rarr;</h2>
+            <h2>documentation &rarr;</h2>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              documentation (installation/usage information) for most coding languages and frameworks
+            </p>
+          </a>
+          <a
+            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            className={styles.card}
+          >
+            <h2>jargon &rarr;</h2>
+            <p>
+              keep hearing a word or phrase but don't really understand what it means? check out this page for definitions and examples
+            </p>
+          </a>
+          <a
+            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            className={styles.card}
+          >
+            <h2>templates &rarr;</h2>
+            <p>
+              basic templates for everything from html boilerplate code, to contact forms, to configuration files
             </p>
           </a>
         </div>

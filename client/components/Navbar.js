@@ -12,7 +12,7 @@ export default function Navbar() {
     <nav>
     <Link href="/">
     <a>
-    <h1>jr.JoinUp()</h1>
+    <h1>jr.joinUp()</h1>
     </a>
     </Link>
       <ul className="flex-row nav-bar">

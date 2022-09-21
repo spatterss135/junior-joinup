@@ -2,7 +2,7 @@
   margin: 0 auto;
   text-align: center;
   --primary: #262728;
-  --secondary: #98a8da;
+  --secondary: white;
   --tertiary: #4d4f53;
   --accent: #0beff7;
 }
@@ -36,6 +36,7 @@ a {
 
 main {
   width: 100%;
+  padding: 0 4rem;
   background-color: var(--primary);
   color: var(--secondary);
 }
